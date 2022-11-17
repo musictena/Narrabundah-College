@@ -1,2 +1,3 @@
 # <b><h6>Assignments</h6></b>
-A collection of all the it work that's been completed
+A collection of Robotics, Digital Solutions work from 2022-2023
+
