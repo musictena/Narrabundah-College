@@ -1,0 +1,188 @@
+#include "NXCDefs.h"
+
+#define VOL 4
+#define THRESHOLD  40
+#define NEAR  15
+
+#define X_MAX 30
+#define Y_MAX 63
+#define X_MID (X_MAX+1)/2
+#define Y_MID (Y_MAX+1)/2
+
+void note (const int tone){
+PlayToneEx(tone,400,VOL,FALSE);        //Play Note C
+Wait(500);
+}
+
+sub chorus(){
+
+
+note(262);        //Play Note C
+note(330);        //Play Note E
+note(440);        //Play Note A
+note(494);        //Play Note B
+note(330);        //Play Note E
+note(440);        //Play Note A
+note(494);        //Play Note B
+note(523);        //Play Note C
+
+note(330);        //Play Note E
+note(311);        //Play Note D#
+note(330);        //Play Note E
+note(311);        //Play Note D#
+note(330);        //Play Note E
+note(247);        //Play Note B
+note(294);        //Play Note D
+note(262);        //Play Note C
+note(220);        //Play Note A
+
+note(262);        //Play Note C
+note(330);        //Play Note E
+note(440);        //Play Note A
+note(494);        //Play Note B
+note(330);        //Play Note E
+note(523);        //Play Note C
+note(494);        //Play Note B
+note(440);        //Play Note A
+
+}
+
+sub music()
+{
+
+note(330);
+note(311);
+note(330);
+note(247);
+note(294);
+note(262);
+note(220);
+
+note(494);        //Play Note B
+note(523);        //Play Note C
+note(587);        //Play Note D
+note(659);        //Play Note E
+note(392);        //Play Note G
+note(698);        //Play Note F
+note(659);        //Play Note E
+note(587);        //Play Note D
+note(659);        //Play Note E
+note(659);         //Play Note E
+note(294);        //Play Note D
+note(523);        //Play Note C
+note(659);        //Play Note E
+note(294);        //Play Note D
+note(262);        //Play Note C
+note(330);        //Play Note E
+note(330);        //Play Note E
+note(311);        //Play Note D#
+note(330);        //Play Note E
+note(311);        //Play Note D#
+note(330);        //Play Note E
+note(247);        //Play Note B
+note(294);        //Play Note D
+note(262);        //Play Note C
+note(220);        //Play Note A
+
+}
+
+sub customer(){              //graphics on the screen of the NXT, for the customer to view
+int i = 1234;
+ClearScreen();
+GraphicOut(30,10,"faceclosed.ric");
+Wait(500);
+ClearScreen();
+GraphicOut(30,10,"faceopen.ric");
+Wait(1000);
+ClearScreen();
+TextOut (1, LCD_LINE3, "Hello, customer!");
+Wait (3000);
+ClearScreen();
+TextOut (1,LCD_LINE3, "Enjoy Mr Whippy");
+Wait(1000);
+ClearScreen();
+}
+
+sub driving (){
+
+     OnRev(OUT_AB, 75);
+      Wait(300);
+      OnFwd(OUT_AB, 75);
+
+}
+
+task initial(){
+while(true){
+if ((SensorUS(IN_4) > NEAR) || (SENSOR_1 == 0) || (Sensor(IN_3) < THRESHOLD)){
+/*Off(OUT_AB);
+Wait(10);
+Precedes(music);
+OnFwd(OUT_AB, 75); */
+driving();
+}
+
+}
+}
+
+task sensor(){
+
+SetSensorTouch(IN_1);     //initiation of variables
+SetSensorLight(IN_3);
+SetSensorLowspeed(IN_4);
+
+
+while (true){
+
+if(SensorUS(IN_4)< NEAR) {   //when the ultrasonic sensor is high, turn off motors and stop playing music, turn on graphics
+Off(OUT_AB);
+StopSound();
+customer();
+Wait(500);
+}else{                       //if other conditons are not specified, then play 'initial' subroutine
+Precedes(initial);
+}
+ if (SENSOR_1 == 1)      //if touch sensor is high, that turn off grpahics and reverse and go forwards
+    {
+     Wait(20);
+     driving();
+     music();
+    }
+else{ //if touch sensor is low then play 'initial' subroutine
+Precedes(initial);
+}
+if (Sensor(IN_3) > THRESHOLD)   //if the light sensor is high, turn off the motors for 5 seconds and go forwards (crossing)
+{
+
+Off(OUT_AB);
+// Wait(5000);
+ClearScreen();
+TextOut (1,LCD_LINE4, "People Crossing");
+Wait(2000);
+ClearScreen();
+TextOut (1,LCD_LINE4, "Please wait for:");
+Wait(1000);
+ClearScreen();
+TextOut (20,LCD_LINE4, "2 seconds");
+Wait(1000);
+ClearScreen();
+TextOut (25,LCD_LINE4, "1 second");
+Wait(1000);
+ClearScreen();
+TextOut (X_MID,Y_MID, "Thanks for");
+Wait(1000);
+ClearScreen();
+TextOut (40,Y_MID, "waiting!");
+Wait(1000);
+ClearScreen();
+driving();
+chorus();
+}
+
+}
+
+}
+task main(){
+driving();
+StartTask(sensor);
+
+       }
