@@ -14,6 +14,6 @@ A collection of Robotics, Digital Solutions work from 2022-2023
 
 2022 Session 2: Narrabundah College Website on the IT subjects and faculities within the school using HTML, CSS and jQuery
 <br>
-2022 Session 2: Library System using PHP, MYSQL, HTML and CSS
+2022 Session 2: Library System using PHP, MYSQL, jQuery, HTML and CSS
 
 
