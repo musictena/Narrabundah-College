@@ -1,0 +1,2 @@
+For this assignment we were to create a robotic 4wd motor chassis that was controlled by batteries and programmed using Arduino software. 
+We had to include class, hence header files and c++ files. Extra components such as an LED, buzzer and pentiometer were suggested but only the LCD was added.
