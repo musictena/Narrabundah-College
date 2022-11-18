@@ -1,0 +1,391 @@
+h1 {
+  color: black;
+  margin-left: 100px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, Sans-Serif;
+  background-color: linen;
+}
+
+/*banner*/
+#wrapper {
+  width: fit;
+  height: fit;
+  max-height: 200px;
+  overflow: hidden;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+  max-height: 200px;
+  margin: 0 auto;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+/*menu bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+
+  top: 15;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffbf34;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+}
+
+.mySlides {
+  display: none;
+}
+
+.img {
+  vertical-align: middle;
+}
+
+/*menu bar ends*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+.custom-combobox {
+  position: relative;
+  display: inline-block;
+}
+
+.custom-combobox-toggle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-left: -1px;
+  padding: 0;
+}
+
+.custom-combobox-input {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+/*jQuery widget: menu*/
+.ui-menu {
+  width: 200px;
+}
+
+/*jQuery widget: accordian*/
+#accordion-1 {
+  font-size: 14px;
+}
+
+/*jQuery widget: dialog*/
+.ui-widget-header,
+.ui-state-default,
+ui-button {
+  background: #b9cd6d;
+  border: 1px solid #b9cd6d;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/*jQueryUI widget: spinner*/
+#spinner-1 input {
+  width: 600px;
+}
+
+/*jQueryUI: adding class*/
+.big {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*jQueryUI: sortable*/
+#sortable-1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+
+#sortable-1 li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 17px;
+  height: 16px;
+}
+
+.default {
+  background: #cedc98;
+  border: 1px solid #dddddd;
+  color: #333333;
+}
+
+/*jQueryUI: switch class*/
+.LargeClass {
+  font-family: Arial;
+  font-size: large;
+  font-weight: bold;
+  color: blue;
+}
+
+/*jQuery: chaining */
+button {
+  width: 150px;
+  cursor: pointer;
+}
+
+.NormalClass {
+  font-family: Arial;
+  font-size: small;
+  font-weight: bold;
+  color: Black;
+}
+
+/* editing layout of page infomation*/
+.nav {
+  float: left;
+  width: 30%;
+  height: 400px;
+  /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+.article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 400px;
+  /* only for demonstration, should be removed */
+}
+
+.containerInfor {
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+}
+.containerSearch {
+  width: 45%;
+  margin: 20px;
+  padding: 20px;
+}
+div.relative {
+  position: relative;
+  width: 99%;
+  height: 600px;
+}
+
+div.absolute {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 45%;
+}
