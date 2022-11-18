@@ -1,0 +1,357 @@
+/* Style for body */
+body {
+  width: 100%;
+  background: #eee;
+  position: relative;
+  font-family: Arial;
+}
+/* Style for Dashboard */
+.dashboard {
+  width: 100%;
+  background: #eee;
+  position: relative;
+  display: flex;
+  font-family: Arial;
+}
+/* Sign in form  */
+#frm {
+  border: solid gray 1px;
+  width: 25%;
+  border-radius: 2px;
+  margin: 120px auto;
+  background: white;
+  padding: 50px;
+}
+/* Sign in button */
+#sbtn {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-left: 40%;
+}
+/* Menu: styling the menu bar */
+#menu {
+  background: #111827;
+  width: 400px;
+  height: 100%;
+}
+/* Menu: display of logo */
+#menu .logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 30px 0 0 30px;
+}
+/* Menu: specifications image */
+#menu .logo img {
+  width: 150px;
+  margin-right: 15px;
+}
+/* Menu: top placement of item list */
+#menu .items {
+  margin-top: 40px;
+}
+/* Menu: side placement of item list */
+#menu .items li {
+  list-style: none;
+  padding: 15px 0;
+  transition: 0.3 ease;
+}
+/* Menu: hover function */
+#menu .items li:hover {
+  background: #253047;
+  cursor: pointer;
+}
+
+/* Menu: Icons */
+#menu .items li i {
+  color: rgb(134, 141, 151);
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 10px 0 25px;
+}
+/* Menu: Icon hover function */
+#menu .items li:hover i,
+#menu .items li:hover a {
+  color: #f3f4f6;
+}
+/* Menu: display of font next to icons */
+#menu .items li a {
+  text-decoration: none;
+  color: rgb(134, 141, 151);
+  font-weight: 300px;
+  transition: 0.3 ease;
+}
+/* banner image */
+#interface .banner img {
+    width:100%;
+    height:200px
+}
+/* Top bar: seperate the search bar from the menu */
+#interface {
+  width: calc(100% - 400px);
+}
+/* Top Bar: Spacing for items and for bottom line */
+#interface .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px 30px;
+  border-bottom: 3px solid #594ef7;
+}
+/* Top Bar: Search bar */
+#interface .navigation .search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 14px;
+  border: 1px;
+  border: 1px solid #d7dbe6;
+  border-radius: 4px;
+}
+/* Top bar: Seperate the text in the search bar from the icon */
+#interface .navigation .search i {
+  margin-right: 14px;
+}
+/* Top bar: the Search box */
+#interface .navigation .search input {
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+/* Top Bar: Location of the profile section */
+#interface .navigation .profile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* Top Bar: The icon near Admin */
+#interface .navigation .profile i {
+  margin-right: 20px;
+  font-size: 19px;
+  font-weight: 400;
+}
+/* Top Bar: Rounded profile picture */
+#interface .navigation .profile img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/* Interface Title*/
+.i-name {
+  color: #444a53;
+  padding: 30px 30px 0 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Dashboard: Layout of the dashboard box */
+.values {
+  padding: 30px 30px 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* Dashboard: Box */
+.values .val-box {
+  background: #fff;
+  width: 235px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* Dashboard: icon within box */
+.values .val-box i {
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  margin-right: 15px;
+}
+/* Dashboard: making the icon colour for 'user' icon */
+.values .val-box:nth-child(1) i {
+  background: lightcoral;
+}
+/* Dashboard: making the icon colour for 'books' icon */
+.values .val-box:nth-child(2) i {
+  background: lightsalmon;
+}
+/* Dashboard: making the icon colour for 'returned books' icon */
+.values .val-box:nth-child(3) i {
+  background: lightgreen;
+}
+/* Dashboard: making the icon colour for 'date' icon */
+.values .val-box:nth-child(4) i {
+  background: lightskyblue;
+}
+/* Dashboard: changing the font within users */
+.values .val-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* Dashboard: changing the  text and user number color/size */
+.values .val-box span {
+  font-size: 15px;
+  color: #828997;
+}
+/* Specifications of the table  */
+#listTable {
+  width: 92%;
+  margin: 30px 30px 0 30px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: auto;
+}
+/* Interface: Structure of table */
+#listTable td,
+#listTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  cursor: pointer;
+}
+/* Interface: swapping between colours */
+#listTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Interface: Changing the colour of the table when hovered over */
+#listTable tr:hover {
+  background-color: #ddd;
+}
+
+/* Interface: The title of the table */
+#listTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #337ab7;
+  color: white;
+  cursor: pointer;
+}
+/* Adding Record style box */
+#addUser {
+	width: 35%;
+	border-radius: 2px;
+	margin: 40px auto;
+	background: white;
+	padding: 50px;
+}	
+/* Button for sorting tables from a-z */
+#return {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-left: 70%;
+}	
+/* User/book: Add button */
+#addBtn {
+  color: #fff;
+  background: #337ab7;
+  padding: 7px;
+  margin-left: 70%;
+}
+
+/* Menu: The specifications of the logo */
+#addUser .narralogo img {
+  width: 150px;
+  display: flex;
+}
+/* Index intexface: add user button   */
+.add-button{
+  margin: 30px;
+}
+/* Layout of the form */
+.form-group {
+  margin-bottom: 15px;
+}
+/* Label for user form */
+.label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+/* User/Book update or add: Spacing between form and button */
+.form-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+/* User/Book table */
+.board {
+  padding-bottom: 50px;
+}
+
+/* Sign-in Form */
+#frm .signpic  {
+    align-items: center;
+    width: 100px;
+    display: inline-flex;
+
+}
+/* Sign-in form: image */
+#frm .signpic img {
+  /* float: right; */
+  margin-left: 0px 0px 0px 20px;
+  width: 150px;
+  height: 150px;
+}
+
+/* Admin Page: accordian text*/
+#accordion-1 .form-group {
+  color:#337ab7;
+  background-color: white;
+  border: 1px solid white;
+  
+}      
+/* Profile page: jQuery progress bar */
+.ui-widget-header {
+  background: #cedc98;
+  border: 1px solid #DDDDDD;
+  color: #333333;
+  font-weight: bold;
+  padding: 50px;
+}
+
+/* Profile page: jQuery progress bar color */
+.ui-widget-header {
+  background: #594ef7;
+  color: white;
+  font-weight:bold;
+  padding: 10px 20px;
+}
+/* Profile page: jQuery progress bar text */
+.progress-label {
+  position: absolute;
+  font-weight: bold;
+  color: white;
+}
+
+/* Profile page: jQuery UI-Shake  */
+#box-1 {
+  height: 65px;
+  width: 70px;
+  border-radius: 50%;
+}
+/* Profile page: jQuery UI-disapear  */
+#box-2 {
+  height: 65px;
+  width: 70px;
+}
+
+/* Profile page: jQuery UI-pulsate  */
+#box-2 {
+  height: 65px;
+  width: 70px;
+}
