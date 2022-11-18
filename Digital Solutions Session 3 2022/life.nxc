@@ -1,0 +1,109 @@
+#include "NXCDefs.h"
+
+#define THRESHOLD 40
+#define NEAR 15
+
+
+#define X_MAX 99
+#define Y_MAX 63
+#define X_MID (X_MAX+1)/2
+#define Y_MID (Y_MAX+1)/2
+int countdown = 10;
+
+sub sensorAll (){
+   while (true)
+      {
+       if (SENSOR_1 == 1)
+       {
+       OnRev(OUT_AC, 75);
+       Wait(300);   //when pressed it will go forward then spin clockwise
+       OnFwd(OUT_A, 75);
+       Wait(300);
+       OnFwd(OUT_AC, 75);
+       }
+
+       if (Sensor(IN_3) > THRESHOLD)
+       {
+        OnRev(OUT_C, 75);                 // will go reverse with a wheel then go forwards
+        Wait(100);
+        until(Sensor(IN_3) <= THRESHOLD);
+        OnFwd(OUT_AC, 75);
+       }
+        if(SensorUS(IN_4)<NEAR) {
+           Off(OUT_AC);
+           OnRev(OUT_C,75);
+           Wait(800);
+           }else  {
+            Off(OUT_AC);
+           OnFwd(OUT_AC,75);
+            }
+        if (Sensor(IN_2) > THRESHOLD){
+         OnRev(OUT_C, 50);
+         Wait (400);
+         }else if(Sensor(IN_2) < THRESHOLD){
+         OnFwd(OUT_AC, 75);
+         Wait(200);
+          OnRev(OUT_C, 75);
+         }  else{
+         Off(OUT_AC);
+
+          }
+
+      }
+}
+
+sub image_recall(){
+   int i = 1234;
+   TextOut(15,LCD_LINE1,"Display");
+   NumOut(60,LCD_LINE1, i);
+   PointOut(1,Y_MAX-1);
+   PointOut(X_MAX-1,Y_MAX-1);
+   PointOut(1,1);
+   PointOut(X_MAX-1,1);
+   Wait(200);
+   RectOut(5,5,90,50);
+   Wait(200);
+   LineOut(5,5,95,55);
+   Wait(200);
+   LineOut(5,55,95,5);
+   Wait(200);
+   CircleOut(X_MID,Y_MID-2,20);
+   Wait(800);
+   ClearScreen();
+   GraphicOut(30,10,"faceclosed.ric");
+   Wait(500);
+   ClearScreen();
+   GraphicOut(30,10,"faceopen.ric");
+   Wait(1000);
+   TextOut (X_MID, Y_MID, "hello");
+   Wait (3000);
+   ClearScreen();
+repeat (11){
+  NumOut (X_MID, Y_MID, countdown);
+  Wait(1000);
+  ClearScreen();
+  countdown=countdown-=1;
+}
+
+
+
+
+}
+
+task main()
+     {
+      SetSensorTouch(IN_1);
+      SetSensorSound(IN_2);
+      SetSensorLight(IN_3);
+      SetSensorLowspeed(IN_4);
+      //image_recall();
+      //Wait (6200);
+
+      sensorAll();
+
+
+      }
+
+      
+
+
