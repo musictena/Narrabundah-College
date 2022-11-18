@@ -1,0 +1,98 @@
+/*
+0.5. display graphics
+1. forward diagonal right, and back x2 (steps 1-4 make as functions)
+2. forward diagonal to left and back x2
+3. backwards diagonal right and back x2
+4. backwards diagonal left and back x2 -->(1-4)about 15-20 seconds
+5. forwards and left and back x2
+6. forwards and right and back x2
+7. backwards and left and back x2
+8. backwards and right and back x2
+9. lurch to left really fast
+10. lurch to right really fast
+11. beep twice (make as a sub task)
+12. move in a spiral
+13. repeat 1-12 twice
+14. spin 360 degrees and drift
+*/
+
+
+#include "NXCDefs.h"
+
+#define timer 500
+
+//variables
+int right_motor;
+int left_motor;
+
+//step 0.5
+
+sub graphics(){
+  ClearScreen();
+  TextOut(4, LCD_LINE3, "Let's dance!");
+  Wait(timer);
+}
+
+
+//step 1 and 2
+void diagonal_forwards(int motor){
+  OnFwd(motor, 75);
+  Wait(timer);
+  OnRev(motor, 75);
+  Wait(timer);
+}
+
+//step 3 and 4
+void diagonal_backwards(int motor){
+  OnRev(motor, 75);
+  Wait(timer);
+  OnFwd(motor, 75);
+  Wait(timer);
+
+}
+
+//steps 9 and 10
+void lurch () {
+  Off(OUT_AB);
+  OnFwd(right_motor, 100);
+  Wait(timer);
+  Off(right_motor);
+  Wait(timer);
+  OnFwd(left_motor, 100);
+  Wait(timer);
+  Off(left_motor);
+  Wait(timer);
+  Float(OUT_AB);
+
+}
+
+
+
+task main()
+  {
+    //initiate variables
+    right_motor = OUT_A;
+    left_motor = OUT_B;
+
+    //step 0.5
+    graphics();
+    
+    //steps 1-4
+    repeat (2){
+      repeat (2){
+        diagonal_forwards(right_motor);
+      }
+      repeat (2){
+        diagonal_forwards(left_motor);
+      }
+      repeat (2){
+        diagonal_backwards(right_motor);
+      }
+      repeat (2){
+        diagonal_backwards(left_motor);
+      }
+   }
+    //steps 9 and 10
+    lurch();
+
+  }
