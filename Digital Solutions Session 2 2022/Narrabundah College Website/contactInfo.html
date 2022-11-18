@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Narrabundah Page|Contact Infomation</title>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<script src="./jQuery/myNarr.js"></script>
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
+	<link rel="styleSheet" href="./styleSheet/mystyle.css">	
+</head>
+
+<body>
+	<div id="banner">
+		<img src="./images/banner1.jpg" alt="block" style="width:1366px;height:200px;">
+	</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Narrabundah
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="info.html">Subject Infomation</a>
+				<a href="solutions.html">Digital Solutions</a>
+				<a href="networking.html">Networking and Cybersecurity</a>
+				<a href="robotics.html">Robotics and Mechatronics</a>
+			</div>
+		</div>
+		<div>
+			<a href="" class="active">Contact Infomation</a>
+			<a href="questionAndAnswer.html">Q and A</a>
+			<a href="subjectSelection.html">Subject Selection<a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+		</div>
+	</div>
+	<div class="containerInfor">
+		<p>If you have any questions about each subject please contact us;</p>
+	
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">Robotics and Mechatronics</a></li>
+				<li><a href="#tabs-2">Digital Solutions</a></li>
+				<li><a href="#tabs-3">Networking and Cybersecurity</a></li>
+			</ul>
+
+			<div id="tabs-1">
+				<div>
+					<strong>Teacher:</strong> Archana Aggarwal
+					<br>
+					<br>
+					<strong>Room:</strong> S14
+					<br>
+					<br>
+					<strong>Email:</strong> archana.aggarwal@ed.act.edu.au
+				</div>
+			</div>
+
+			<div id="tabs-2">
+				<div>
+					<strong>Teacher:</strong> Greg Clarke
+					<br>
+					<br>
+					<strong>Room:</strong> S14
+					<br>
+					<br>
+					<strong>Email:</strong> greg.clarke@ed.act.edu.au
+				</div>
+			</div>
+
+			<div id="tabs-3">
+				<div>
+					<strong>Teacher:</strong> Archana Aggarwal
+					<br>
+					<br>
+					<strong>Room:</strong> S14
+					<br>
+					<br>
+					<strong>Email:</strong> archana.aggarwal@ed.act.edu.au
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Narrabundah Page</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<script src="https://www.tutorialspoint.com/jquery/jquery-3.6.0.js"></script>
+	<link rel="styleSheet" href="./styleSheet/mystyle.css">
+	<script src="./jQuery/myNarr.js"></script>
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="banner">
+		<img src="./images/banner1.jpg" alt="block" style="width:1366px;height:200px;"></img>
+	</div>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+
+		<div class="dropdown">
+			<button class="dropbtn">Narrabundah
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="info.html">Subject Infomation</a>
+				<a href="" class="active">Digital Solutions</a>
+				<a href="networking.html">Networking and Cybersecurity</a>
+				<a href="robotics.html">Robotics and Mechatronics</a>
+			</div>
+		</div>
+		<div>
+			<a href="contactInfo.html">Contact Infomation</a>
+			<a href="questionAndAnswer.html">Q and A</a>
+			<a href="subjectSelection.html">Subject Selection<a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+		</div>
+	</div>
+	<div>
+		<div class="container">
+			<h2>Digital Solutions</h2>
+			<div class=" big hello">
+				<p>This course focuses on computational thinking and the application
+					of the design process to create and develop digital solutions using a variety of digital
+					technologies.
+					Digital Technologies involves students creating new ways of doing things, generating their own ideas
+					and creating digital solutions to problems of individual, community and global interest.
+					They model, analyse and evaluate data, test hypotheses, make decisions based on evidence,
+					and create solutions. Innovative solutions may take the form of a product, prototype, and/or
+					proof of concept that allows for improvement or disruption of existing processes or products.
+					Students may explore a single technology deeply or may consider many different technologies in
+					pursuit of a solution.
+					Through the study of Digital Technologies, students present, validate, and evaluate their solutions.
+					In doing so, they develop and extend their understanding of designing and programming, including
+					fundamental computer science principles such as algorithm selection and complexity, structuring data
+					for processing and problem-solving.
+					Throughout the course, students are exposed to a range of strategies for managing projects and
+					communicating their ideas from ideation to development and launch. Understanding the value of
+					collaboration with others and the importance of stakeholder input in the design of a product is
+					a critical part of developing any solution, including the selection of appropriate technologies
+					and platforms.
+				</p>
+			</div>
+		</div>
+		<button id="class">Shrink and unbold</button>
+		<button id="chain">Change the colour</button>
+	</div>
+	<div>
+		<img src="./images/s14.jpg" alt="s14" style="width:200px;height:300px;border-radius:8px;"></img>
+	</div>
+</body>
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Narrabundah Page</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<link rel="styleSheet" href="./styleSheet/mystyle.css">
+	<script src="./jQuery/myNarr.js"></script>
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="banner">
+		<img src="./images/banner1.jpg" alt="block" style="width:1366px;height:200px;"></img>
+	</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+
+		<div class="dropdown">
+			<button class="dropbtn">Narrabundah
+				<i class="fa fa-caret-down"></i>
+			</button>
+
+			<div class="dropdown-content">
+				<a href="info.html">Subject Infomation</a>
+				<a href="solutions.html">Digital Solutions</a>
+				<a href="networking.html">Networking and Cybersecurity</a>
+				<a href="" class="active">Robotics and Mechatronics</a>
+			</div>
+		</div>
+		<div>
+			<a href="contactInfo.html">Contact Infomation</a>
+			<a href="questionAndAnswer.html">Q and A</a>
+			<a href="subjectSelection.html">Subject Selection<a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+		</div>
+	</div>
+	<br>
+	<div>
+		<h3>Robotics</h3>
+		<figure>
+			<div id="divinfo">
+				<img src="./images/robotics.jpeg" alt="robotics" style="width:400px;height:500px"
+					title="Robotics Classroom"></img>
+			</div>
+			<figurecaption>Double click to get infomation and source</figurecaption>
+		</figure>
+		<div class="NormalClass">
+			<p>
+				This course focuses on network technologies and architecture,
+				and the devices, media and services and operations in different types of networks.
+				<br>
+				The rise of mobile computing and ubiquitous internet access has led to modern computing
+				systems and platforms that are designed for access anywhere, anytime.
+				<br>
+				These platforms all rely on networks that are not only stable and reliable but interconnected and
+				increasingly
+				distributed.
+				<br>
+				Understanding networks and the security implications of data transmission
+				through networks is a critical part of developing digital solutions for a wide audience.
+				<br>
+				Students learn how networks facilitate device to device communication through an exploration
+				of core networking technologies
+				<br>
+				and their configuration. This could include the study of embedded systems (Internet of Things devices)
+				<br>
+				alongside core networking devices such as
+				routers and switches and the software that manages them.<br>The security of data and the implications of
+				networked systems for data privacy are considered from many perspectives,<br> including the technical
+				implementation of secure protocols
+				and the ethical challenges associated with providing encrypted communications and storage
+				for all users.
+			</p>
+		</div>
+		<br>
+		<input type="button" id="btnSwitch" value="Switch Class"></input>
+</body>
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+
+</html>

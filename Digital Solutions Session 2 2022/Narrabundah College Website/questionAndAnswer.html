@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Narrabundah Page</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<script src="./jQuery/myNarr.js"></script>
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css">
+	<link rel="styleSheet" href="./styleSheet/mystyle.css">	
+</head>
+
+<body>
+	<div id="banner">
+		<img src="./images/banner1.jpg" alt="block" style="width:1366px;height:200px;">
+	</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+
+		<div class="dropdown">
+			<button class="dropbtn">Narrabundah
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="info.html">Subject Infomation</a>
+				<a href="solutions.html">Digital Solutions</a>
+				<a href="networking.html">Networking and Cybersecurity</a>
+				<a href="robotics.html">Robotics and Mechatronics</a>
+			</div>
+		</div>
+		<div>
+			<a href="contactInfo.html">Contact Infomation</a>
+			<a href="" class="active">Q and A</a>
+			<a href="subjectSelection.html">Subject Selection<a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+		</div>
+	</div>
+	<div class="containerInfor">
+		<p>Q and A</p>
+	
+		<div id="accordion-1">
+			<h3>╰──➢ How are you marked?:</h3>
+			<div>
+				<p>
+					<strong>For Session 1;</strong> there will be an assignment and an end of session test.<br>
+					<br>
+					<strong>For Season 2,</strong> there will be two assignments and an end of session test.<br>
+					<br>
+					<strong>For Session 3,</strong> there will be one assignment and one end of session test.<br>
+					<br>
+					*this may vary between each Infomation Technology subject and teachers
+				</p>
+			</div>
+			<h3>╰──➢ Student Answer: “Are IT subjects difficult?”</h3>
+			<div>
+				<span>
+					"All subjects begin at a beginner-level difficulty,
+					but the pace at which each subject proceeds differs.
+					<br>
+					<br>
+					For subjects such as Digital Solutions, the pace
+					moves at a normal-like, where the speed varies depending
+					on the student. In terms of studying, it is mainly self-study.
+					<br>
+					For Robotics and Mechatronics, the speed is slightly
+					faster than Digital Solutions but it is relatively easy to grasp.
+					<br>
+					For Networking and Cybersecurity,the speed is pretty much the same speed
+					as Robotics and Mechatronics."<br>
+					<div id="home" data-author-name="Phebe Le" data-year="2022"></div>
+					<br>
+					<button id="infobtn">See quoted</button>
+				</span>
+			</div>
+			<h3>╰──➢ What is the difficulty of each subject?</h3>
+			<div>
+				<p>
+					Our three subjects are all made beginner-friendly, but after the first session,
+					topics will increase
+					<br>
+					in difficulty, based on the previous session's work.
+					This may mean that students enrolling in the
+					<br>
+					subject for the first time (in session 2)
+					may struggle to learn the new content.
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+</script>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Narrabundah Page</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	
+	<script src="./jQuery/myNarr.js"></script>
+
+	<link rel="styleSheet" href="./styleSheet/mystyle.css">
+	
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+	<style type="text/css">
+		#spinner-2,
+		#spinner-3 input {
+			width: 100px
+		}
+	</style>
+</head>
+
+<body>
+	<div id="banner">
+		<img src="./images/banner1.jpg" alt="block" style="width:1366px;height:200px;"></img>
+	</div>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Narrabundah
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="info.html">Subject Infomation</a>
+				<a href="solutions.html">Digital Solutions</a>
+				<a href="networking.html">Networking and Cybersecurity</a>
+				<a href="robotics.html">Robotics and Mechatronics</a>
+			</div>
+		</div>
+		<div>
+			<a href="contactInfo.html">Contact Infomation</a>
+			<a href="questionAndAnswer.html">Q and A</a>
+			<a href="" class="active">Subject Selection<a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+		</div>
+	</div>
+	<div>
+		<p>Subject Selection</p>
+		<img src="./images/s14.jpg" alt="s14" style="width:200px;height:300px"></img>
+		<p>Date: <input type="text" id="datepicker"></p>
+	</div>
+
+	<p> Sort the Languages from most skilled at to least </p>
+	<ul id="sortable-1">
+		<li class="default">Java</li>
+		<li class="default">HTML</li>
+		<li class="default">CSS</li>
+		<li class="default">PHP</li>
+		<li class="default">Python</li>
+		<li class="default">C#</li>
+		<li class="default">SQL</li>
+	</ul>
+	<div>
+		<br>
+		<input type="text" id="spinner-1" value="0" />
+	</div>
+	<br>
+	<br>
+	<div>
+		<div id="dialog-1" title="Submitted">Your Subject Selection form has been submitted.<br><br>Your form will be
+			viewed within 5-7 working days.</div>
+		<button id="opener">Submit Form</button>
+	</div>
+</body>
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+
+</script>
+
+</html>

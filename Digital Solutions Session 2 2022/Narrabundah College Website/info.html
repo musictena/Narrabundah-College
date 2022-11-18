@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Narrabundah Page</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+	<link rel="styleSheet" href="./styleSheet/mystyle.css">
+	<script src="./jQuery/myNarr.js"></script>
+	<link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="banner">
+		<img src="./images/banner1.jpg" alt="block" style="width:1366px;height:200px;"></img>
+	</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">Narrabundah
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+				<a href="" class="active">Subject Infomation</a>
+				<a href="solutions.html">Digital Solutions</a>
+				<a href="networking.html">Networking and Cybersecurity</a>
+				<a href="robotics.html">Robotics and Mechatronics</a>
+			</div>
+		</div>
+		<div>
+			<a href="contactInfo.html">Contact Infomation</a>
+			<a href="questionAndAnswer.html">Q and A</a>
+			<a href="subjectSelection.html">Subject Selection<a>
+					<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<i class="fa fa-bars"></i>
+					</a>
+		</div>
+	</div>
+	<div>
+		<img src="./images/frontOfficeLibrary.jfif" alt="infotech" style="width:1364px;height:900px"></img>
+	</div>
+	<div>
+		<ul id="menu-1">
+			<nav>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<li><a href="solutions.html">Digital Solutions</a></li>
+				<br>
+				<li><a href="networking.html">Networking and Cybersecurity</a></li>
+				<br>
+				<li><a href="robotics.html">Robotics and Mechatronics</a></li>
+			</nav>
+		</ul>
+	</div>
+	<div>
+		<article>
+			<h1>Infomation on Technology Subjects</h1>
+			<p>Information Technology emphasises problem solving and team work skills for a rapidly changing society.
+				A knowledge of information technology is becoming more and more necessary for daily life at home, work
+				and in education.
+				Just one of the units will give you invaluable skills for the workplace, further study or personal use.
+				A full course will give you good preparation for university study. <br>
+				Within the IT course, there are a number of pathways available, catering for a wide range of student
+				interests.
+				Students may choose to follow a distinct pathway, or they may combine units from different pathways.
+				<br>Students studying technologies will learn about the design process and its application.
+				Students will develop research skills, computational thinking and a range of communication skills.
+				They will refine their interpersonal and intrapersonal skills including collaboration, project
+				management
+				and be able to reflect on their own learning. Students will have opportunities to use design thinking
+				and
+				apply creativity through structured, collaborative and project-based learning, solve problems, develop
+				practical skills and apply critical thinking in the development of new ideas.<br><br>
+				The college will be offering IT units from within these courses are: Robotics and Mechatronics,
+				Networking and Cybersecurity and Digital Solutions.
+			</p>
+		</article>
+	</div>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myTopnav");
+			if (x.className === "topnav") {
+				x.className += " responsive";
+			} else {
+				x.className = "topnav";
+			}
+		}
+
+	</script>
+</body>
+
+</html>
