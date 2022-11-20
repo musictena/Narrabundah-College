@@ -1,5 +1,5 @@
 # <b><h5>Assignments</h5></b>
-A collection of Robotics, Digital Solutions work from 2022-2023
+A collection of Robotics, Digital Solutions work
 
 
 <h4>Robotics:</h4>
