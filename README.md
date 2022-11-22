@@ -1,5 +1,5 @@
 # <b><h5>Assignments</h5></b>
-A collection of Robotics, Digital Solutions work
+A collection of my assignments for Robotics, Digital Solutions work
 
 
 <h4>Robotics:</h4>
