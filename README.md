@@ -22,9 +22,6 @@ Video of the car in action: https://drive.google.com/file/d/1zr-mbVjsPND-CyHjuJa
 <br>
 2022 Session 2: Library System using PHP, MYSQL, jQuery, HTML and CSS
 
-
-
-
 <h3>Narrabundah College Website images</h3>
 
 ![image](https://user-images.githubusercontent.com/109852885/203284618-823afd2d-9dd9-4adb-a6a5-14e4e010102b.png)
