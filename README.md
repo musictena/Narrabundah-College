@@ -31,6 +31,8 @@ Video of the car in action: https://drive.google.com/file/d/1zr-mbVjsPND-CyHjuJa
 ![login_in](https://user-images.githubusercontent.com/109852885/206121837-2cc23c7c-e12c-4593-8c40-78bbe068b662.png)
 ![student_borrow](https://user-images.githubusercontent.com/109852885/206121840-41f196bb-4dfc-4539-93e2-aa5dcb3237a6.png)
 ![student_dash](https://user-images.githubusercontent.com/109852885/206121849-704a509c-106c-4b80-9674-d4fe82b3528d.png)
+![image](https://user-images.githubusercontent.com/109852885/206123033-678f0c1e-5404-46a8-91b3-e0060a006ee0.png)
+![image](https://user-images.githubusercontent.com/109852885/206123172-8f28f347-024c-4b3e-8de5-bbc31ec03efb.png)
 
 
 
