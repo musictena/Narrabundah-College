@@ -1,0 +1,15 @@
+//by using these commands, you can set the speed of any port
+(config)# interface FastEthernet0/1  //goes to port 0/1 (2nd port section&1stport)
+(config-if)# speed auto              //auto-negotiate (done by default)
+(config-if)#speed 10                 //v explicitly use this speed for this particular port
+(config-if)#speed 100
+(config-if)#speed 1000
+
+
+
+
+switch >enable
+switch#config t
+switch(config)# interface fastethernet0/1 //this port has been selected
+switch(config-if)#speed ? //shows all the possible suggestions for speed function
+switch(config-if)#speed 100 //change speed to 100
