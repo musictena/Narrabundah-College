@@ -1,0 +1,24 @@
+text
+
+//commands for adding text-description to an interface
+(config)#interface Fa0/1 //go to the interface of  the Fa0/1= switch
+(config-if)# description ToMyPc //ToMyPc can be any device
+
+//cisco packet tracer
+//setting up the message
+//*you should already be in the interface mode of the switch (confg-if)
+switch (config-if)# description ToMyPc
+switch (config-if)# 
+
+//seeing the message 
+switch>enable
+switch# show interfaces status //displays the status of all of the ports on that switch 
+switch# show interfaces fastethernet 0/1 //shows the details of port
+
+revert config
+
+switch#donfig t
+switch (config)# interact fastethernet0/1
+switch(config-if)# no speed //will revert the config that was previously done
+switch(config-if)# no duplex //reverses the duplex mode
+switch(config-if)# no shutdown //administratively take it down
