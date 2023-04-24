@@ -1,0 +1,16 @@
+//commands for changing duplex mode of the switch
+//either half: cannot receive and send at the same time
+//or full: can receive and send at the same time
+(config)#interface Fa0/1 //go to the interface of  the Fa0/1= switch
+(config-if)#duplex auto  //auto-negotiate
+(config-if)#duplex full  //choose which duplex mode you want
+(config-if)#duplex half
+
+
+//cisco packet tracer
+switch>enable
+switch>#config t
+switch(config)#interface fastethernet0/1 //go to interface 
+switch(config-if)# duplex ? //displays the options for duplex command
+switch (config-if)# duplex full //selects full duplex mode
+
