@@ -1,0 +1,380 @@
+Main
+
+What is cybersecurity?
+Cybersecurity is the field int technology which focuses on protecting and preventing aunthorised users gaining access to a protect system. The protection can be within as well as on the outside.  
+
+
+
+
+Switch 
+
+What is switch
+A switch is a networking device that assist in the data transmission from one point to another. These forward packets from one device to another. This is different from a  router that transfers data through a network
+
+What is a layer 2 switch? What is a layer 3 switch?
+A layer 2 switch is a networking device that works on the data link layer. This means that it helps in the transmission of data using mac addresses. The layer 3 switch is forward data based on ip addresses
+
+What is the difference between a switch and a router?
+A switch is a mainly level 2 component that helps to connect devices that are trying to reach an end goal. Whilst a router is a device that helps to direct the data transmission and manages/receives it.
+
+What is an unmanaged switch? What is a managed switch?
+A managed switch 
+How do network switches know the MAC addresses of the devices in their network?
+
+
+Network
+
+What is a network?
+A network is a collection of devices that are linked together in different methods to create communication, and to transfer data
+
+What is a physical network 
+A physical network is a a type of network that uses cables and physical hardware parts to create a connection between different devices
+
+What is a wireless network
+A wireless network is anetwork that does not require physical wires and uses internal, logical connection. Eg. router to end device via wifi
+
+What are some common wireless technologies used
+Some examples of wireless tech include bluetooth the connection of devices of a limited distance, wifi router (create wireless internet limited to a certain distance)
+
+What happens at the network layer?
+At this layer, the packet creates another category within the header, this being the ip location and the destination of the packet. In doing so the routing of the packet occurs through routers. This is one of the most integral steps
+
+What is a packet?
+A segment of the larger piece of data. They are used to send data to a particular source. Inside a packet there is the data, the mac address, and ip address for both destination and source
+
+What is the OSI model?
+The osi model is a conceptual model that is used to understand the structure and process of how data transmission occurs within a network. It is important because it allows users, and network technicians to gain a deeper insight into the process of the network
+
+What does each layer do?
+APSTNDP (aps tend to be physical). Application layer is used to show as the layer between transferring data that can be used in applications. 
+The presentation layer is used to translate the binary form into a malleable form that can be used in the presentation layer. 
+The session layer is the communication between different devices in transferring the data from one device to another. 
+The transport layer is used to check of the transportred data is in the correct spot from chekicng ports, ip address and mac address and the transportation of data. 
+Network layer is in charge of adding the ip address to the data packet header. This allows the packet to know the end location and staring location
+The data link layer is adding the macc address to the packet. 
+The physical layer is making physical connections via cables from one end device to another be it logically or physically. 
+
+What protocols are used at the network layer?
+The protocols that are used at the network layer are tcp and udp. 
+The tcp/ip model is used to a stronger protocol that is more effective, secure and precise. It uses different techniques to manage packet data information as well as deal with faulty and malicious packets. 
+Whilst udp is user data frame protocol and is used as another way to transport data by receiving ans ending it. This protocol is mainly used for streaming and messaging due to its focus on speed and not accuracy, frames can be missing or malfunctioning. 
+
+What is a protocol
+Protocol is a set of rules within a network that re used to transmit data
+
+
+
+Routing and data transmission
+
+What is a packet 
+ A packet is a type of separation of data 
+
+How does routing work?
+Routing uses internal ruter tables that contain all the information of the devices. This means that when a data packet is received, the destination ip address is read and the packet is directed t that location using the hsortest route possible. Inhte routing tables there are static and dynamic routing tables. Static routing table do not change, and the rotung table is set up by an admin. Dynamic routing table having changing ip addresses that are automatically updated. It also uses differetnet protocols to underestnad and navigate the packet in a more efficient time based on network traffic. 
+
+What are the main routing protocols?
+
+
+What is routing
+ Routin is the process of a network choosing the best path for data packets to travel from the source to the destination. 
+
+What isa router
+A router is a networking device that is used to control the packets, particularly as it is forwarded in the network. Routers are used toconnect several ip addresses together. 
+
+Wat is routing an how dies it work in a network
+Routing is the process that is used to direct data packets to their destination. Routing is used within a network by referring to routing tables. These routing tables that can either be dynamic or static choose the closets location based on protocols and direct the packet there. Dynamic routing tables will do this faster than static routing tables due to proocls that adhere to monitoring network traffic 
+
+What is bandwidth and its importance in networking
+Bandwidth is rate of data transfer through a network
+This is important becaus eth transfer of data is a key component in allowing a network to work. The bandwidth of a network may be limited which means that the network will have a slower data transmission time whilst a larger bandwidth may mean the data transmission is faster and hence results will be faster. 
+
+
+Network topologies
+Names of commonon network topologies + advantages and disadvantages:
+Names of common network topologies are star, bus, hybrid, . the advantages of the network topologies like bus has advantages such as faster packet transmission time from all devices being connected. the negatives include; if there was a vulnerability within the backbone of the network such as the cables; then the network will be paused or will malfunction. Star oplokgy is the mos tpopoular one due to the use f a switch and an almost unlimited amunt of portas that devices can be connected to but the disadvantage of this is it is time consuming to set up and if there was a malfunction within the switch that connects the devices then the system will be paused. It is also requires more equipment due tot he connetion of wires
+
+Network security 
+
+What is encryption
+Encytpion is the scrambling and manipulation of data to hide it. This is used to prevent malicious users from gaining access to certain pieces of information, and only allowing users to accessthis data. 
+This provides security, privacy and integrity of having secure data. 
+ Use of firewalls:
+Firewalls within network security is used to protect outsider threats from coming and disrupting the network. 
+
+What are the types of firewalls?
+
+
+What is network security
+Network security is the subfield within cybersecurity that focuses on the protecting users from malicious users penetrating the network from inside and outside. 
+What are some common security threats to com networks and how can they be prevented
+Some common security threats are virus, trojan horses, worms and spyware. These are threats as they can manipulate and take data or break a computer systme/network
+Way to prevent these attack are using IPS (intrusion prevention systems) →are used to detect, alert and prevent malicious attacks. These attacks can be analysed as IPS keeps tarack of suspicious data and movement within the network. DLP (Data loss prevention) by implementing this system, critical and personal data is monitored carefully within the network to not have it exposed, or become vulnerable to malicious users. 
+
+What is a vpn 
+A virtual private network is used to hide a users ip address and allow them to access a network using the ipaddress of a remote server. The vpn encrypts the data message and send it through the network using another ip address. 
+This is used to hide ones location
+
+What is phishing
+Is a method where malicious individuals try to get them to give you their personal information through scam emails,messges, calls etc. they aim to steal this personal data to use it for their own self-gain 
+
+What is a dos attack
+ A denial of service attack is a malicious attack on a sytem where a user floods a server with a large amount of requests at a time hence breaking it by making it unavailable for other users and making the server go down. 
+Subnetting and ip
+
+What is a subnet
+A subnet is a subdivision of a network. Subnets are beneficial to networks because it makes data transmission more efficient. It allows network traffic to travel through the shortest distance 
+What is an ip
+An ip or a internet protocol is a set of rules that is used for data transmission within or across networks. These are usually sent through a variety of packets that have information regarding their mac and ip address. When they arrive they will be managed by transport protocols eg. tcp udp
+
+Wha tis the process of assigning ip addresses to devices?
+There are two ways of assigning ip addresses to devices. This being dynamically and stacilly. For static ip addressing, a network administrator has to physically assign each devices p address, subnet, gateway etc. this occurs for all devices. 
+Whilst dynamic ip assigning is conduced throug DHCP (dynamic host control protocol). Administrators create a pool of network addresses and allocate them to be assigned to a specific subnet.
+
+What is CIDR notation and how is it used to represent ip addresses and subnet masks
+Cidr notation is used to show how many host and network IDs there are, similar to a subnet mask but in digits not dotted decimal form. This is used as a replacement for a subnet mask by counting the number of available bits as 1 and the remaining available hosts are depicted as 0
+It is used to represent ip addresses in that is represent a subnetwork in an ip address and signals to the router which aspects are the router and what are the hosts
+It is used to represent subnet masks in a digit form in comparison to the dotted form that they have
+
+What cant you have a cidr of over 30
+This is because the cidr of 31 has 2 hosts and these are required for broadcasting and network ID
+
+What is a default gateway and how is it used in network comm
+It is a node that is used for communication between two networks on two different devices.
+
+What is the purpose of subnet id and how is it used
+A subnet id also known as a network id is a portion of an ip address that is used to identify where the hosts reside. This host id identifies the network the device is on.
+The host is is used for devices that are connected to the host device 
+
+What are the ways you can subnet an ip address
+The vlsm method and the flsm method
+The vlsm method that allows the networkadmins to divide the network ip address into different parts. This can be changed makign it not wasteful
+The flsm method is the most common method where all subnets are of equal length. The same subnet address is used, subnets hae the same amount o addresses but it is wasteful as many are not used
+
+How do you use it to subnet a network
+
+
+What is a supernet
+Is the opposite to subnetting, it combines several different network together. It’s major aim is simplify the routing decisionmaking that occurs within the ruter. Whilst in subnetting the routing is combined entirely, in supernetting the routing is simplified before being sent to the router where the router combines different routes. 
+
+How is a supernet used in network addressing
+Supernets are used in gain a broader understanding of the range of different ip addresses within a collection of networks. This helps the network technician to understand the different aspect of of each network , specifically devices within each network. 
+
+What is an ip address
+An ip address is a level 3 addressing scheme that connects each device to the internet. Ip addresses are split into 3 different classes class A which is has limited network id, class b which has an even number of network id and hosts and class c has 3 network ids and 1 host category
+
+What is the difference a mac address and an ip address
+The difference between the two is the layers that they work on. Despite both being addressing protocols that help in the data transmission process, mac addresses are managed on layer 2 of th OSI model which is the data link layer. These mac addresses are used to direct the data from one component to another. Whilst an ip address is used to show a strating oint and an ending point. 
+
+What is the point of subnetting + network performance and security
+Helps to reduce data transmission packets going to unnecessary location and components. It breaks down a network into different section so that there is a clear differentiation of the layers and different categories. 
+It improves network performance because datapackets do not need to travel through an array of different devices to reach the destination. The use of switches help to make clear links from one place to another
+It improves newtork security because it is easier to maintain the loopholes and vunerabilites within a smaller network as a opposed to a large networ with one security system. It generally has more layers of security inner network security and outer. 
+
+What is sunetting and how does it create subnetworks
+Subnetting is dividing a large networks into smaller networks to improve congestion and productivity 
+
+What is a subnet mask
+A subnet mask is a ip address that is used for internal use, such as routers, to understand where to send data to. This is not located in the data packets, as the data packets only contain the location addres (ip) and the mac address
+
+What are the types of ip addresses?
+There are 4 types of ip addresses, static (manulaly configured and set up by admin), dynamic (continously changing)
+
+What are the ip classes
+Class A has 1-127, class b has 128-191, class c as 192-223. Class a is used for network that require a lot of hosts, class b is for small to medium sized network and class c is for LAN networks
+What are the types of IP versions and what do they do
+They are ipv4 and ipv6. Ipv4 is limited to 32 bits and is the first internet protocol which was devleopmed. After developers realised there were not enough ip addresses they developed the ipv6 which had 128 bits which significantly increased its capabilities 
+
+What is the difference between public and private ip addresses
+Public ip addresses are ip addresses that are exposed to the worldwide web and are assigned by the internet provider. Whilst the private ip addresses are assigned via ones router and are more secure than than a public ip address.
+What are the ways that ip addresses can be assigned and what are the process of doing so. 
+Ip addresses can be assigned statically and dynamically. T
+
+What are the different class o an ip addresses and their ranges
+Class a has a range of 1-127 bits. This is for large networks with 3 sections for host ID and 1 for network ID
+Class b is 128-191. This is for medium sizzed networks with 2 network and 2 hosts IDs
+Class c is 192-223. This is for mall enterprises networks with 3 network ids and 1 host
+Class d is 224-239: is not for public use 
+Class e is 240-254 is for research and testing
+
+
+
+
+
+
+Cisco packet tracer
+
+How to config a router
+
+En
+Config t
+Int fa 0/1
+Ip address 192.156. 0.120
+No shutdown
+Ex
+Ex
+
+
+Config switch (banner, priv password, hostname)
+
+
+En
+Config t
+Hostname …
+Enable secret …
+Service password-encryption
+Motd banner “...”
+Config switch for  console
+
+
+En +config t
+Line console 0
+Password …
+Login 
+History size 15
+Exec-timeout 6 45
+Logging synchronous
+Config switch for telnet
+En + config t
+Line vty 0 15
+Password …
+Login
+History size …
+Exec-timeout …
+Adding ip address
+En 
+Config t
+Int Vlan 1
+Ip address …. subnet
+Config trunking for switches
+
+
+En
+Config t
+Int port
+Sw m t
+Config setting for ports
+
+
+En
+Config t
+Int port
+Sw m a
+Speed 100
+Duplex full
+
+
+Config switch to support vlan
+En
+Config t
+Vlan 10
+Name v10
+Ex
+Write
+end
+Device
+Int port
+Sw m a
+Sw a vlan 10exit
+Config router
+The process of configuring a router is to enable, config t, int port, no shutdown, ex, write
+config lvl 2 switch +lv3
+En 
+Config t
+Int vlan 1
+Sw m t
+Ip address
+No shutdown
+
+
+En
+Config t
+Int fa port
+No switchport
+Ip address …. ….
+No shutdown
+ex
+Config router to router
+Add hwic-2t to both
+Add ip add…
+No shutdown
+dhcp
+En
+Config t
+Int port
+Ip add ….
+No shutdown
+Do write memory
+Ip dhcp pool net1
+Network (same ip address + subnet)
+Ex
+Int port +repeat
+Click on dhcp when creating 
+13. Vtp; 
+En config t
+Vtp mode server
+Vtp mode client
+For switch
+Vtp domain …
+Vtp password /….
+Client
+Vtp password
+Vtp domain
+
+
+
+Wat is cisco packet tracer
+Cisco's packet tracer is a networking simulation software that allows one to gain a deep understanding of the network and how it works. It allows user to create, anlayse, configure and troubleshoot different problems 
+It is used in network simulation and design through its different functions and tools that allow the user to recreate a specific design in order to anlyse and understand the data transmission as well as the issues the network may face
+Describe the different devices in cisco 
+Within cisco packe tracer there are a range of layer 2 devices regarding switches, multilayer switches, layer 3 devices regarding routers as well as layer 7 devices for end devices. There is also layer 1 cables regarding twitches copper wire ones. 
+These devices all play a major role in the network as the form the functionality of the network. Cables helps to create a connection between devices, layer 2 switch are used to link different L2 or L3 devices together and layer 3 devices are used to help manage the entire network
+How do you trouble shoot problems in packet tracer
+To roubleshoot problems the use of show interface would allow one to see bug regarding ip addresses etc. The simulation mode would allow the must toubleshooitng as it shows the data transmission ad errors in terms of ping occur there.
+How would you simulate a wan network between two sites
+This could be completed by creating two separate basic network topologies and connecting both router together. These would have uniquely different ip addresses to portray different enterprises or locations. 
+
+Types of networks
+
+What a wan
+Wan is wide area network this group is larger than LAN but smaller than MAN. It provides network service similarily to   
+
+What is a lan
+ A lan is a local area network that is focused on providing network service for a small groups or business eg. home wifi. These devices are usually connected via a router be it wirelessly or physically
+
+What is man
+Man is a metropilitcan area networ which has a significantly larger spread than lan as it can be used for towns or cities. 
+These are constructed using fiber optic cabling
+
+What equipment is needed for a lan
+The equipment that is required for a LAN depends on the type of router that is used in the LAN. IF the LAN uses a wireless router than the the connection will be logically within the computer and the router. If the router is not capable of wireless routing then physical wires are used. If the network has two many devices or the connection is too far from the router than switches may be required to divert the connection to another spot before reaching the router/deivce. 
+
+What is a vlan
+Is a virtual local area network. It splits the physical wifi int two logical network that can be used separately. These are used to create a more efficient and ‘cleaner’ network as devices are separated into different cageories. 
+Difference between lan vs wan
+The difference is that lanfocuses its connection on a smaller, more limited amount of devices compared to wan which has a large spread of devices that it can control. This can be portrayed through an example; lan beings a home network and wan being a local shopping centre wifi
+
+What is a dhcp 
+Is dynamic host control protocol, which is used to dynamically automatically assign ip addresses to end devices 
+This is created by an admin creating a poll of ip addresses for a specific gateway. In the poll, the specific starting address is added. The gateway can then be added automatically to end devices
+
+What is dns and what does it so
+Dns is domain name server is an internet service that translates domain names into ip addresses. When a domain name is typed into an internet browser, the request goes to a dns server which translates the corresponding domain name to an ip address which then redirects the user to the corresponding page
+
+What is http
+Stands for hypertext transfer protocol. It is used at level 7 of the osi model and converts physical code to a physical webpage. It is found at the beginning of each website link
+
+What is https
+This is the more secure verison of http. It stands for hypertext transfer protocol secure. It is transmitted over https but uses an encrypter connection on the transport layer (layer 4). 
+
+What is nat?
+It a protocol within the network that translates a private ip address into a public ip address.  this essentially connects private an public ip addresses together. An end device sends a request to a server, this request goes through a router that will change the private ip address to a public, which is then sent to the requested location, and returened through the same method. 
+It is used in networking to help private, unoriginal ip addresses change into the routers public unique ip address to then send to the server or location
+
+What is arp
+Arp is address resolution protocol; is a proocal the connection between an ip address and a mac address
+
+What is vtp
+Vtp is vlan trunking protocol, tha runs on the data link layer and is incharge of the configuring + management of vlans. These are based 
+Protocols 
+
+
