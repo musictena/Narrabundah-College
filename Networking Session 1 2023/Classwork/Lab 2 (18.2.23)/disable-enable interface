@@ -1,0 +1,11 @@
+//commands for changing the state of an interface
+(config)# interface Fa0/1 //go to the interface
+(config-if)# shutdown //administratively disconnects an interface of a switch 
+(config-if)# no shutdown 
+//administratively makes it go into an active state, allows it to work again
+
+//cisco packet tracer
+switch> enable
+switch# config t
+switch(config)# interface fastethernet0/1 //got to interface
+switch(config-if)# shutdown
