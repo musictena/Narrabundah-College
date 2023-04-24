@@ -1,0 +1,27 @@
+Switch>
+Switch>enable
+Switch#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#enable password cisco
+Switch(config)#service password-encryption
+Switch(config)#enable secret password class
+Switch(config)#banner motd "Authorized access only. Violators will be prosecuted to the full extent of the law."
+Switch(config)#exit
+Switch#wr
+Building configuration...
+[OK]
+Switch#
+?Bad filename
+%Error parsing filename (Bad file number)
+Switch#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#interface vlan1
+Switch(config-if)#ip address 192.168.1.253 255.255.255.0
+Switch(config-if)#no shutdown
+
+Switch(config-if)#
+%LINK-5-CHANGED: Interface Vlan1, changed state to up
+
+%LINEPROTO-5-UPDOWN: Line protocol on Interface Vlan1, changed state to up
+
+Switch(config-if)#exit
