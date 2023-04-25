@@ -24,4 +24,4 @@ Video of the car in action: https://drive.google.com/file/d/1zr-mbVjsPND-CyHjuJa
 
 <h4>Networking:</h4>
 
-2023 Session 1: Cisco packet tracer
+2023 Session 1: Networking with Cisco packet tracer
