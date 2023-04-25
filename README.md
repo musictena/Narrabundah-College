@@ -18,7 +18,7 @@ Video of the car in action: https://drive.google.com/file/d/1zr-mbVjsPND-CyHjuJa
 
 <h4>Digital Solutions:</h4>
 
-2022 Session 2: Narrabundah College Website on the IT subjects and faculities within the school using HTML, CSS and jQuery
+2022 Session 2: NC Website on the IT subjects and faculities within the school using HTML, CSS and jQuery
 <br>
 2022 Session 2: Library System using PHP, MYSQL, jQuery, HTML and CSS
 <br>
