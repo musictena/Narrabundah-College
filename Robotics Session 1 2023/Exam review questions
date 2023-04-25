@@ -3,10 +3,13 @@ Methodologies
 What is a methodology?
 A methodology is a product management framework that is used to gain a clear understanding of what subtasks need to be accomplished , the major goals and the process behind each subcategory
 SDLC 
+
 What is SDLC and what is it used for
 SDLC stands for Software development lifecycle. This is a type of management tool also known as a framework that is used to break the process of creating a product into a range of followable steps and goals. 
+
 What is the primary aim of SDLC
 The primary aim of SLDC is to create a systematic approach to create a product. This is broken up into different steps and each step is used to gain narrowed down into a specific goal
+
 What are the pros and cons of sldc
 Pros are that it allows the project to become more efficient and well managed. This is done by 
 Time efficiency, in being able to manage, and understand tasks based on deadlines,
@@ -18,14 +21,18 @@ Based on the research, planning and development stages at the beginning of the s
 The cons for this is that
 If the beginning stages of planning, research and development are not strongly adhered to this may cause major problems further on within the design process. This could be detrimental to the timeframe that is required for the project
 If the development team is not thorough and methodical with their process, this stage may take up a significant amount of time. 
+
 What is the scope of the project
 The scope of a project is a specific goal/s, expectations and objectives that the project is based upon. This is created within the planning stage within the SDLC model. 
+
 What is the importance of SDLC?
 Lower complexity by splitting the project into definable stages with specific goals and objectives
 Transperancy it allows different members of the devops to underetsnad the situation of the project and what is required, in need of adapting as well as between stakeholders
 It creases the quality of the project due to the planning, research and development at previous stages which alow the other stages to gain a clear understanding of what is required and what aspects to focus on. 
+
 What is the difference between project management and SDLC
 Project management is the discipline in managing each individual stage of the SLDC model, through organisation, controlling, reporting and managing the project. THis is completed via project management tools. WHilst SDLC are the specific tasks that are required to be completed within each stage of the SDLC. THis is based upon the attributes of quality, consistency and management. 
+
 What are the different phases in the SDLC model
 Planning and requirement stage:
 This is the research and planning into the basic approach for the model. THe research will be based around a feasibility test to understand the significance of creating the product through areas such as economic, operational and technical. 
@@ -39,22 +46,25 @@ Testing the product
 The stage is a subset of all stages but this stage is mainly focused on the implementation and building phase. The defects in reported, fixed and is retested until the product reaches the standards in the SRS. 
 Deployment and maintenance
 This stage is deploying the product is released and deployed to the appropriate audience. The deployment may happen at earlier stages depending on the goals of the project eg. beta testing, to check and see audience reactions. The maintenance of the product is to check to see the progress of the product within a wider audience and fix any corresponding issues that arise from using the product
+
 What is srs and dds
 Srs: is software requirement specification- this is the documentation that contains all the information about the product such as the requirements of the product, the audience of the product. THis is the overall structure and specific goals of the design.  → created in the planning stages
 DDS: is the design documentation specification-this is the documentation that contains all the requirements, proposed approaches, goals etc. → created in the development stage
+
 What is the testing phase in SDLC?
 The testing phase within SLDC model is the phase that checks the performance of a product before deployment (occurs within the next stage). This testing can be done via unit testing, system testing, integration testing, user testing. THis is used to help detect and remove bugs from the product. This will be conducted till the DDS(design documentation specifications) are met. 
+
 What tasks are performed in the deployment and maintenance phase 
 Within the deployment phase, the product may be released earlier as beta testing but if released at the end of development, the deployment will be released to the corresponding software/audience. The maintenance phases consist of continuous monitoring and testing for different bugs or issues that may occur once real=eased to the public. The element that will be tested upon is it’s stability, user friendliness, flexibility and performance
+
 What are the agile testing methods?
 XP, Scrum
+
 What are the different type of SDLC methodologies?And How does each model work?
 Waterfall: → a linear model that focuses on completing all steps before proceeding to next step
 waterfall is a linear sequential life cycle mode (traditional). This model requires the full completion of each task before proceeding to the next task. 
 Agile→ is a set of iterative stages and any stages can be returned to. This is conducted is set of iterations 
  is based off an adaptive software development model (ASDM) this is the more modern model compared to the waterfall model. This model focuses of a series of three iterations which consists of all 5 stages (planning, analysis, design, implementation and testing). The iterations usually occur withinthe development stage and therefore change other stages like planning. These iterations can increase or decrease depending on the issues that the project faces. THe model focuses on flexibility and adaptability (has an adaptive apprach)
-
-
 V model: → is a linear model, adds implementation at each stage, is broken into validation and vertification
 Also known as the verification and validation model, is a linear sequential life cycle model but it implements the planning, implementation and testing at every stage of the model. This model is arranged in a v shape and the 3 substages at each stage. These are arranged in the vertification stage with 5 substages and validation stage with 5 substages. This is similar to the waterfall as you can not return to a previous stage once completed. 
 This is usually used for sequential products with clear requirements, the product has a short timeframe
@@ -97,6 +107,7 @@ System testing
 This is the testing of the entire system working as a whole together in terms of functionality and communication with external systems. Incompabilites are usually found within this stage
 Acceptanc etesting 
 Testing in a user environment, usually used to find incompailites with external systems in environment
+
 What are the advantages of each model specification 
 Linear sequential software development lifecyle model
 No time constraint 
@@ -106,6 +117,7 @@ The goal will be more clearly defined and reaarched compared to adaptive softwar
 Process specification
 Ue to the lack of iterations, the project procedure is clearly explained with research to ensure validity. 
 Adaptive software lifecyle model 
+
 What are the disadvatages of each model
 Linear sequential software development lifecyle model 
 Lack of flexibility in time managements
@@ -113,45 +125,60 @@ Due tothe set procedure that the process requires, roadblock due to third partie
 Lack of flexibility in iterative steps
 Backtracking on particular steps may be difficult due to the set ayout of the procedure. THis may be due to physical/logical/virtual implementation of each stage/substage.
 Adaptive software development lifecycle 
+
 What are the agile principles
 The reflection of how to become more effective and gain the ability to adjust to these new changes	
+
 What are llds and hlds in sdlc
 LLD aka Low level design is the term used to describe the design process of components or segmented sections of the development design process. It contains all specifications and description of each module. It can also be called detailed design or micro-level design. 
 HLD aka High Level Design is the term used for the overall system design. His is a road overview of each specification required within the system. This is created within the development stage of the SLDC. 
+
 What is the devsecops model in SDLC
 The devsecops model also known as SSDLC is a type of SDLC model that incorporates security into all stages of the development process. This is a essential component due to the increasing amount of cyber attacks, and vunerabilites that the system may have. 
+
 What si the difference between traditional and agile SDLC models
 Traditional models focus on the completion of the task without the stage of reiteration or returning to a previous stage. These traditional models are called linear sequential models. WHilst agile SDLC focus on the main development stages as well as reiteration where users are able to return to previous stages to edit goals, change product designs, test a different model etc. These are called adaptive software development model (adsm) 
 What is the difference between XP and Scrum
 XP is more focused on the development process of pair programming whilst Scrum is more focused on the management of a teams and the key aspects of the development process. 
 SSDLC 
+
 What is sSDLC
 SSDLC also known as secure software development life cycle is a terminology used for any SDLC that has security implemented into all stages of the development cycle 
+
 What is deveops 
 Deveops is the methodology that is used to define the collaboration between the software implementation team and the IT team. This can be applied to the large groups of individuals for each category. 
 Wha tis devsecops
 Stands for development security and operation is the integration of security at every stage of the development process. The relation that devops has with this is that both teams use this to help develop their product
+
 What is the relation between devsecops and SDLC
 The relation between devsecops and SLDC is that it creates application security throughout the entire software development lifecycle instead of the focus during the subtle creation or at the end. 
+
 What Is the importance of having security within an SDLC?
 The importance of having security in sdlc is that it helps to reduce long term costs due to vulnerabilities/the number of cyberattacks and compromisations due to lack/weak security. It also means more secure planning, devleopmentment, testing and monitoring. 
 When should security be implemented in an SDLC model and how should it be implemented?
 Security should be implemented at all stages of the SLDC model. This allows a full rounded protection, analyse and implementation of scueitry, not just at the development phase. 
+
 What is the devops model
 Is an agile based model that relies on customer feedback to continue each iteration. Fleaxbility to imrove the mode as it develops, 
+
+
 Scrum
+
 What is scrum
 Scrum is an agile development process framework that is used to sustain, develop and deliver products or specific goals through team collaboration . THis is a subcategory for the types of agile testing methods available 
+
 What's the difference between scrum and an agile 
 Scrum is a framework for team management with the specification of the development stage. Whilst agile is a set of frameworks and principles that are used to help in project management.
 What are the benefits of using scrum
 The benefits of using scrum is that it allows you to think in a more agile and, logical way and build agile principles into communication
 Breaks down large projects into smaller segments. This allow team members to be more efficient, more flexible in terms of changes and the need to adapt and 
+
 What are the roles and their responsibilities
 Scrum master
 These individuals are involved with the management of the teams, and ensuring that communication is clear between the project manager, and the scrum team. THe master also is in charge of managing the requirements of the teams in terms of financial requirements, time constraints and time managements, scrum team satisfaction. COmmunication between teams are created via the scrum masters arrangement of meetings and understanding of the problems each cohort is facing
 The project manger is in charge of the management of goals be it within the backlog (the overall set of specific goals within group to achieve in order to complete the project) or the 
 The development team is the completion of the work including the testing
+
 What are the type of scrum events
 Sprint +sprint planning → the creation of the sprint and the the specific scope of the sprint
 A sprint is a set of iterations that occur within a project. These occur over a set period of time. Within this sprint the development team creates a specific goal and area to focus upon. The planning stage of this is called the sprint planning/iteration.  
@@ -162,13 +189,16 @@ Sprint review → sprint review is conducted with audience and is to receive fee
 This is collaborative meeting at the end of the sprint that is used to show the end product or the accomplished aspects that were created in the sprint. THis can be used to gain feedback from the customer. This is used to give transparency of the product (through feedback) for the next sprint in way to improve. 
 Sprint retrospective → team performance analysis at the end of the sprint
 This is a meeting within the scrum team on the process of the sprint (good/bad). This requires the inspection of specific elements and the adaptation of what the team can improve on
+
 What are the 3 major concerns within scrum
 Transparency, adaptability and inspection
 What are the three roles that scrums have and what do they do
 Product owner, scrum master, and development team. The produc owner is in charge of the management of all the overall tasks that need to be accomplished within this project. Thye also choose the specific tasks which needs to be focused on in each sprint. The scrum master is used to ensure that there are no difficulties and impediments regarding time, economic, physical constraints that slowdown the develop team. The development team is in charge of creating and reiterating the product within a specific time frame. If this time frame is not achieved, the sprint ends, and if required the next sprint wil be based on creating this 
+
 What is sprint velocity and user story?
 Within there are 10 user specific stories (goals) which are to be completed. These are segregated into 5 points per sprint. These are created based on who its being built for, what they want and the importance 
 Sprint velocity is the speed at which these are completed
+
 What are the sprint artefacts?
 Product  backlog → fullprojduct objectives
 Is a list of the required goals and items that are needed to complete the projet requirements. The goals that are more significant will be higher up in the list. The list can be broken down into specific categories to ensure visibility 
@@ -176,21 +206,30 @@ Sprint backlog → sprint list o goals and objecives
 Is a specific goals and requirements that have been chosen from the product backlog. THese goals are what the current sprint should be focused upon The sprint backlog is populated through the scrum team and the scrum master to ensure transparent communication and a clear goal/objective of what is required within the sprint. 
 Increment → end goal
 The increment is the deployable product which requires all major objectives and goals to be completed through the entire process of the SDLC model. This deployable product is called a MVP (min val product)
+
+
 arduino
+
 What is arduino?
 Arduino is an open source platform that allows users to create, build, code and test code and hardware. The code can be created through the downloadable platform tha can be used to  receive and transmit data. The hardware can be created by combining different pieces of hardware together such as sensors, buttons, resistors, breadboards, the microcontroller itself
+
 What is iot?
 IOT also known as Internet of things is a terminology to describe devices that are connected and controlled from the internet. This means that any piece of technology that has customisable software, is an IOT device. 
 It can also be described as a network of interconnected devices that re linked to the internet and hence can communicate. Software is used to maintain connection and data flow. IOT devices also require hardware that is capable of being logically manipulated via code. 
+
 What things are required to use an arduino?
 To create an arduino project, code and hardware is required. COde can be created through the software creation app in the language C and c++ which can be uploaded to the microcontroller board. The hardware will need to be assembled and connected correctly depending on the code.
+
 What characteristics does an arduino iot cloud have
 Data monitoring: this can be done via the serial monitor and helps to view and control the transmission of data whilst the arduino is active. This can be through manipulating certain features to turn on/off components or to check the values of sensors
 Variable synchronisation: is the arduino microcontroller's manipulation of data, that recognises values and their correlation to certain devices. This synching reduces repetition of code and allows devices to be synched 
+
 How is arduino an IOT device
 Arduino is an iot device because it has features that allow WIFI, BLuetooth connection and uses software manipulation from an open source platform. 
+
 Can arduino’s get ddos attack, which ones, and why
 Yes arduino’s can be attacked by cyberattacks because they are an IOT device which makes is susceptible  to malicious users on the internet. 
+
 What security challenges do iot devices face
 Easy exposure: this is when IOT devices are placed in locations that are susceptible to physical and virtual manipulation. THis can be done through human threats of inadequate handling, external threats such as weather  . Virtual manipulation can be done b bypassing security and implementing different viruses, bugs or malicious software/attacks or collecting valuable data which could be an issue for the IOT device
 Limited security: IOT devices which have limited/non-existant security features may be an issue due to the concern of cyberattack, manipulation of data and installation of bug. THis can be in WIFI or in hardware. 
@@ -202,32 +241,47 @@ Creating an IDS (intrusion detection system): monitors, alerts and actively defe
 
 
 Tinkercad
+
+
 What is tinkercad?
 Tinkercad is a simulation software that is used to replicate the building and coding of an Arduino circuit. SImilarily to the Arduino software, it can transmit and receive data as well as monitor data via the serial monitor.  This simulation is beneficial to Arduino projects as it allows for testing and debugging whilst being able to test at relatively quicker speeds. 
+
 What are the types of modes in tinkercad
 Within the tinkercad circuit there are two main 
+
 How do you connect a DC motor
 To connect a DC motor a 
+
 How do you connect an led
 To connect an led, the required components will be the led, wiring, a 126 ohm resistor. The resistor will be connected to the anode, long leg, of the led which will be further attachesd to a wire that will lead it to the digital i/o pin. The short leg, cathode, will be attached to the GND charge
+
 How do you connect a button
 Button is connected via a resistor, wire and button. The left leg is attached to a 1kohm which is further attached to a pos charge, the left leg (bottom), is attached to GND. The i/o pin will be connected above the resistor. 
+
 How do you connect a photo resistor
 One leg will be attached to the i/o pin and a resistor that connects to gnd and the other oes to pos charge
+
 How do you connect a switch
 A switch is connected by the resistor on the left being connected to neg, middle leg is attach to i/o pin and right leg is attached to pos
+
 How do you connect a servo
 Based on the labels
+
 How do you connect gas sensor
 All bottom legs are connected to pos, the left top leg is connected to a resistor tht links to gn, the middle links to gnd and the right eft links to the analog pin
+
 How can you test a gas sensor
 By turning on simulation mode and dragging the cloud close to the sensor
+
 How do you connect a ultrasonic sensor
 By labels
+
 How do you test the ultrasonic sensor
 Going into simulation mode and dragging the circle within the cone area view and outside of it
+
 What components are required to makes a light circuit
 Components may differ depending on the needs of the LED circuit. But the required elements are LEDs and possibly sensors or inputs that could control or manipulate the button such as buttons or motion sensors. 
+
 What components are required to make a car circuit
 Components may differ depending on the needs of the car.But the required components are LEDs, 2-4 motors depending on the drive of the car, sensors; motion, ultrasonic.
 
