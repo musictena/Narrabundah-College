@@ -1,0 +1,105 @@
+# the creation of filled shapes
+
+import turtle
+turtle.bgcolor("lightblue")
+turtle.title("This is the program")
+turtle.shapesize(1,5,10)
+turtle.shapesize(10,5,1)
+1,10,5)
+SyntaxError: unmatched ')'
+turtle.shapesize(1,10,5)
+turtle.shapesize(10,1,5)
+
+================================ RESTART: Shell ================================
+# 
+import turtle
+turtle.pensize(5)
+turtle.forward(100)
+turtle.shapesize(3,3,3)
+turtle.fillcolor("red")
+turtle.fillcolor("blue", "red")
+Traceback (most recent call last):
+  File "C:\Program Files\Python311\Lib\turtle.py", line 1161, in _colorstr
+    r, g, b = color
+ValueError: not enough values to unpack (expected 3, got 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    turtle.fillcolor("blue", "red")
+  File "<string>", line 8, in fillcolor
+  File "C:\Program Files\Python311\Lib\turtle.py", line 2289, in fillcolor
+    color = self._colorstr(args)
+  File "C:\Program Files\Python311\Lib\turtle.py", line 2697, in _colorstr
+    return self.screen._colorstr(args)
+  File "C:\Program Files\Python311\Lib\turtle.py", line 1163, in _colorstr
+    raise TurtleGraphicsError("bad color arguments: %s" % str(color))
+turtle.TurtleGraphicsError: bad color arguments: ('blue', 'red')
+turtle.color("green", "blue")
+
+================================ RESTART: Shell ================================
+import turtle
+turtle.begin_fill()
+turtle.forward(100)
+turtle.left(90)
+for i in range(4):
+    turtle.forward(100)
+    turtle.left(90)
+
+turtle.end_fill()
+turtle.shape("square")
+turtle.shape("star")
+Traceback (most recent call last):
+  File "<pyshell#30>", line 1, in <module>
+    turtle.shape("star")
+  File "<string>", line 8, in shape
+  File "C:\Program Files\Python311\Lib\turtle.py", line 2777, in shape
+    raise TurtleGraphicsError("There is no shape named %s" % name)
+turtle.TurtleGraphicsError: There is no shape named star
+turtle.shape("circle")
+turtle.shape("turtle")
+turtle.shape("triangle")
+turtle.shape("arrow")
+
+================================ RESTART: Shell ================================
+import turtle
+turtle.pencolor("red")
+turtle.fillcolor("lightblue")
+turtle.pensize(10)
+turtle.speed(10)
+turtle.begin_fill()
+turtle.rectangle(90)
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    turtle.rectangle(90)
+AttributeError: module 'turtle' has no attribute 'rectangle'. Did you mean: 'tiltangle'?
+turtle.circle(90)
+turtle.end_fill()
+
+================================ RESTART: Shell ================================
+# the penup is where the marker doesn't make a line mark when 'penup' is written. pendown does the opposite 
+import turtle
+turtle.forward(100)
+turtle.right(90)
+turtle.penup()
+turtle.forward(100)
+turtle.right(90)
+turtle.pendown()
+turtle.right(100)
+turtle.right(90)
+turtle.forward(100)
+
+================================ RESTART: Shell ================================
+# the 'stamp' is to have the marker make an allocated mark on the line 
+- eg. when you enter the command 'turtle.stamp()' to make a mark
+import turtle
+turtle.stamp()
+5
+turtle.forward(100)
+turtle.stamp()
+6
+turtle.forward(100)
+turtle.forward(100)
+turtle.stamp()
+7
