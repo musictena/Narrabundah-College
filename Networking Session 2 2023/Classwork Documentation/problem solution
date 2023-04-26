@@ -1,0 +1,17 @@
+## problem 1
+>>> import turtle
+>>> n="*"
+>>> while n <= "****":
+	print(n)
+	n=n+"*"
+	
+*
+**
+***
+****
+
+## problem 2
+import turtle
+print ((14*12)/(32*144-187))
+0.03800045238633793
+
