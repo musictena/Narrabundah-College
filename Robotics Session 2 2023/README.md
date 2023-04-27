@@ -18,3 +18,4 @@
 * make a face camera identification 
 * make an alarm that wakes you
 * capture the flag arduino box. the challenge is web-based and physical. To get inside the box there are two problems which need to be solved; the mastermind type puzzle seen above and 
+* puzzle box the aim is to open the lock, by solving the puzzle. if time there may be a digital component where the password can be found by ctf
