@@ -48,6 +48,5 @@ myPointer = &myVar;
 
 ```
 ### Further study
-- https://engineerworkshop.com/blog/pointers-arrays-and-functions-in-arduino-c/: how to use pointers (array, functions)
-
-##
+- https://engineerworkshop.com/blog/pointers-arrays-and-functions-in-arduino-c/: how to use pointers (array[need documentation], functions[confusing])
+- https://reefwing.medium.com/pointers-in-c-and-c-for-arduino-911ab1afe82e: confusing
