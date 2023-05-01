@@ -7,6 +7,7 @@
 ## Pointer
 - a pointer is a variable that references the memory address of another variable (aka the rvalue is the lvalue of another variable)
 - To create declare a pointer; ```int *myPointer```
+- ``` px``` is a good habit for naming pointers to point to x
 
 - Referancing: To get the memory address of a variable, use address-of operator (&), aka referencing operator. 
 - &: a unary operator that returns lvalue of variable
