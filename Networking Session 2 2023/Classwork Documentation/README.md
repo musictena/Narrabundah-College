@@ -31,3 +31,8 @@ Hello World!Hello World!
 Hello World!TEST
 ```
 
+## strings
+- .strip() = remove whitespace at end or beginning
+- .upper() = change val to upper
+- .replace("x","y")
+- ```{}``` is to add a placeholder in a string
