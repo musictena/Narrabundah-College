@@ -11,11 +11,12 @@
 * This will be ranked and scaled the same as the other assignment items (normal)
 * This is offered to only 3 students
 * decide by end of term 2
+
 ### Ideas
-* required real life applicaiton to some degree
+* required real life application to some degree
 * make a puzzle game (https://www.instructables.com/Crack-the-Code-Game-Arduino-Based-Puzzle-Box/)
 (puzzle for colourblind or diabled? inclusive)
-* make a face camera identification 
-* make an alarm that wakes you
-* capture the flag arduino box. the challenge is web-based and physical. To get inside the box there are two problems which need to be solved; the mastermind type puzzle seen above and 
-* puzzle box the aim is to open the lock, by solving the puzzle. if time there may be a digital component where the password can be found by ctf
+* make a face camera that identifies you, if not allowed it shoots something -->no face camera
+* make an alarm that wakes you by sending high frequency sounds at irregular speeds as well as a programmed gun
+* capture the flag arduino box. the challenge is web-based and physical. To get inside the box there are two problems which need to be solved; the mastermind type puzzle seen above and [nah]
+* puzzle box: the aim is to open the lock, by solving the mastermind puzzle. if time there may be a digital component where the password can be found by ctf
