@@ -4,7 +4,7 @@
 
 
 ## To do before next class
-- example: tuple, lists, array (dictionary)
+- python w3school| python strongs: excerise 4
 
 # Notes
 - tuples is surrounded by (), ROM (read only memory)
