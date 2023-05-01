@@ -82,14 +82,15 @@ myPointer = &myVar;
 - https://www.youtube.com/watch?v=QyKVbQH4Hi4&list=PLKL6KBeCnI3X7cb1sznYuyScUesOxS-kL: registers with tinkercad
 ### Terms that I have no clue about + kinda need to know
 
+#### Pointers
 - how pointers can be used to make a struc be in scope of a function
 - static and dynamic memory
-- heap eg. malik or s-break
+- memory heap eg. malik or s-break
 - memory allocators
 - malloc
 - socket
 
-- registers
+#### Array
 - multi-dimensional arrays
 
 ### The rabbit hole of info, that really does not need to be investigated rn
@@ -113,3 +114,4 @@ myPointer = &myVar;
 - recursion
 - foo
 - metasynactic variables
+- STL
