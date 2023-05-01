@@ -11,6 +11,9 @@
 - lists is characterised by []; they can be have different data types; can be changed
 - dictionary (array) is {}
 - string (); for only the char data type
+- comment for one line (#)
+- comment for several lines (""" """)
+- global variables ```global [variable]```
 ```
 print (str) # Prints complete string
 print (str[0]) # Prints first character of the string
