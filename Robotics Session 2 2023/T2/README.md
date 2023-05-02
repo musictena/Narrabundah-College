@@ -89,12 +89,11 @@ myPointer = &myVar;
 - memory allocators
 - malloc
 - socket
-
+- C++ Vector
 #### Array
 - multi-dimensional arrays
 
 ### The rabbit hole of info, that really does not need to be investigated rn
-- C++ Vectors
 - C++ Lists
 - C++ Double-Ended Queues
 - Container Adapters
