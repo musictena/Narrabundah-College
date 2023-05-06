@@ -1,0 +1,20 @@
+1. Write a program that prints all the numbers from 1 to 100. Your program should
+have much fewer than 100 lines of code!
+```
+num = 1
+
+while num <= 100:
+    print(num)
+    num = num + 1
+```
+2. Starting with the word GENE1=”ATGTTGATGTG”, write a Python program that
+creates the new words GENE2, GENE3, GENE4 and GENE5 such that:
+i. GENE2 only contains the last two letters of GENE1
+ii. GENE3 only contains the first two letters of GENE1
+iii. GENE4 only contains the letters at positions 2,4,6,8 and 10 in GENE1
+iv. GENE5 only contains the first 3 and last 3 letters of GENE1
+
+
+
+13. Write a function called find value(mydict, val) that accepts a dictionary called mydict and a variable of any type called
+val. The function should return a list of keys that map to the value val in mydict.
