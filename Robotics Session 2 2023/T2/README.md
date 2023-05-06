@@ -69,6 +69,25 @@ myPointer = &myVar;
   myPointer's lvalue: 2296
   myPointer's rvalue: 2298
 ```
+#### How it can be used
+-  to point to a pin variable
+```
+int* p_pin = &pin; // create a pointer to the pin variable
+digitalWrite(*p_pin, HIGH); // turn the LED on 
+```
+- to make two arrays go off at the samwe timwe
+```
+int melody[] = {262, 294, 330, 349, 392, 440, 494, 523}; // the notes of the melody
+int duration[] = {200, 200, 200, 200, 200, 200, 200, 200}; // the duration of each note
+int melodyLength = sizeof(melody) / sizeof(int); // the length of the melody
+
+  for (int i = 0; i < melodyLength; i++) {
+    int* p_note = &melody[i]; // create a pointer to the current note
+    int* p_duration = &duration[i]; // create a pointer to the current note duration
+    
+    tone(speakerPin, *p_note, *p_duration); // play the current note
+    
+```
 ### Terminology
 - Core files: These are pieces of code that are built into the Arduino IDE eg. digitalWrite, digitalRead, delay
 - Registers are ... that help to improve the speed and descrease the memory storage place within a microcontroller. More difficult to read. 
