@@ -5,6 +5,16 @@
 ## Variable recap
 - memory address (aka location value is lvalue); used to store location of value for compiler
 - stored data (aka register value is rvalue); is used to store the specific data in the memory  
+## Multi-dimensional array
+![image](https://user-images.githubusercontent.com/109852885/236711491-2141c877-e2ab-45f4-bc40-ca77cba7963b.png)![image](https://user-images.githubusercontent.com/109852885/236711676-c37f2bab-77cd-461e-a6ca-187dd2991575.png)
+- does the inner for loop first, once it meets condition it moves to the outside for loop
+#### Two ways to initiate a multi-dimensional array 
+```
+int a[2][3] = {{1,2,3},{4,5,6}};
+OR
+int a[2][3] = {1,2,3,4,5,6};
+
+```
 
 ## Struct
 - A collection of different data types similar to a dict 
