@@ -97,7 +97,7 @@ print(list)
 >>> len(london_coordinates)
 2
 ```
-## strings
+## Strings
 - .strip() = remove whitespace at end or beginning
 - .upper() = change val to upper
 - .replace("x","y")
