@@ -33,8 +33,8 @@ llo World!
 Hello World!Hello World!
 Hello World!TEST
 ```
-### Methods to sort lists, tuples, dict
-#### Bubble Sort
+## Methods to sort lists, tuples, dict
+### Bubble Sort
 - a comparision based algorithm that compares two elements with each other and places them in a particular spot
 ```
 def bubblesort(list):
@@ -50,7 +50,7 @@ list = [19,2,31,45,6,11,121,27]
 bubblesort(list)
 print(list)
 ```
-#### Selection Sort
+### Selection Sort
 - Find the minimum value in a list and compare elements to the min value
 ```
 def selection_sort(input_list):
@@ -66,7 +66,7 @@ selection_sort(l)
 print(l)
 ```
 
-#### Insertion Sort
+### Insertion Sort
 - pick two elements and compare the third element to the two other elements. 
 ```
 def insertion_sort(InputList):
