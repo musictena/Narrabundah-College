@@ -15,7 +15,8 @@ OR
 int a[2][3] = {1,2,3,4,5,6};
 
 ```
-
+## Vectors
+- it is a type of array that 
 ## Struct
 - A collection of different data types similar to a dict 
 - Instead of using a number like array[1], it uses the dot notation
