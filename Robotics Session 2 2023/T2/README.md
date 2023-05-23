@@ -15,8 +15,9 @@ OR
 int a[2][3] = {1,2,3,4,5,6};
 
 ```
-## Vectors
-- it is a type of array that 
+## Malloc
+- Memory Allocation
+- is a array that allows you to provide memory for an array if the lengh already known
 ## Struct
 - A collection of different data types similar to a dict 
 - Instead of using a number like array[1], it uses the dot notation
