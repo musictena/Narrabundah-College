@@ -25,7 +25,9 @@ int a[2][3] = {1,2,3,4,5,6};
 - non-volatile memory is permnant memory that is not lost when the system i turned off. 
 ## SD card module
 - The sd card module is used to read data and write data onto an sd card and show it within Arduino Serial monitor. 
-- 
+### Programs that it can do
+- writing to files on sd card
+- read from a file stored on an SD card
 ## Interrupts
 - Interrupt: a section of hardware that monitors an input pin and interrupts a program (known as a interrupt vector) by letting the program know the input pin has changed it's state
 - an better alternative to polling
