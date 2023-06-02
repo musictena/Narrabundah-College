@@ -5,16 +5,11 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 <h4>Robotics:</h4>
 
 2022 Session 2: Robotic Arm
-<br>
-Video of the arm in action: https://drive.google.com/file/d/1HiXF05YmWrzE3q8zwI1ETU9w18Bz8BgS/view?usp=sharing
-<br>
+- Video of the arm in action: https://drive.google.com/file/d/1HiXF05YmWrzE3q8zwI1ETU9w18Bz8BgS/view?usp=sharing
 2022 Session 2: Light and Sound circuit
-<br>
-Video of the circuit in action: https://drive.google.com/file/d/1_pi0KzN3cYtACzM9NNMzwyYsOGThTcsK/view?usp=sharing
-<br>
+- Video of the circuit in action: https://drive.google.com/file/d/1_pi0KzN3cYtACzM9NNMzwyYsOGThTcsK/view?usp=sharing
 2022 Session 3: 4-Wheeled Battery Operated car 
-<br>
-Video of the car in action: https://drive.google.com/file/d/1zr-mbVjsPND-CyHjuJajJFc-Q5eetfnB/view?usp=sharing
+- Video of the car in action: https://drive.google.com/file/d/1zr-mbVjsPND-CyHjuJajJFc-Q5eetfnB/view?usp=sharing
 
 <h4>Digital Solutions:</h4>
 
