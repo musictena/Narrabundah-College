@@ -6,9 +6,8 @@
 
 # Is randomely generated based on the board (GUI)
 
-# Here random generation works perfect in terminal (once the GUI solve button is pressed) not in GUI though as it
+# Here random generation works perfect in terminal (once the GUI solve button is pressed) not in GUI though as it randomly generates based on 3x3 squares
 
-# randomly generates based on 3x3 squares
 
 #import libraries and modules
 
