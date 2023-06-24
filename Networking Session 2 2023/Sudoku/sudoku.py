@@ -2,11 +2,11 @@
 
 # Whilst this game may not be able to function in the correct method that a normal sudoku game does
 
-# It is able to use the bruteforce algorithm to validate if the board is correct or not
+# It is able to use the brute force algorithm to validate if the board is correct or not
 
-# Is randomely generated based on the board (GUI)
+# Is randomly generated based on the board (GUI)
 
-# Here random generation works perfect in terminal (once the GUI solve button is pressed) not in GUI though as it randomly generates based on 3x3 squares
+# Here random generation works perfectly in terminal (once the GUI solve button is pressed) not in GUI though as it randomly generates based on 3x3 squares
 
 
 #import libraries and modules
