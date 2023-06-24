@@ -3,23 +3,29 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 
 
 #### Robotics:
-
+##### 2022 Session 1: Designing a Robotic System
+- System entailed full design brief for future implementation
 ##### 2022 Session 2: Robotic Arm
 - Video of the arm in action: https://drive.google.com/file/d/1HiXF05YmWrzE3q8zwI1ETU9w18Bz8BgS/view?usp=sharing
 ##### 2022 Session 2: Light and Sound circuit
 - Video of the circuit in action: https://drive.google.com/file/d/1_pi0KzN3cYtACzM9NNMzwyYsOGThTcsK/view?usp=sharing
 ##### 2022 Session 3: 4-Wheeled Battery Operated car 
 - Video of the car in action: https://drive.google.com/file/d/1zr-mbVjsPND-CyHjuJajJFc-Q5eetfnB/view?usp=sharing
+##### 2023 Session 1: Ethics of ML & AI and designing an energy efficient car
+- Essay on Ethics and designing of an energy-efficient car through Tinkercad
+##### 2023 Session 2: Heart Monitoring System
+- Video of reading BPM data: https://github.com/musictena/nc/assets/109852885/f37fa4cd-374e-4054-a481-5d827e5bd698
 
 #### Digital Solutions:
 
-##### 2022 Session 2: NC Website on the IT subjects and faculities within the school using HTML, CSS and jQuery
+##### 2022 Session 2: NC Website on the IT subjects and facilities within the school using HTML, CSS and jQuery
 ##### 2022 Session 2: Library System using PHP, MYSQL, jQuery, HTML and CSS
 ##### 2022 Session 3: NXC Robotics program creation  
 
 ##### Networking:
 
 ##### 2023 Session 1: Networking with Cisco packet tracer
+##### 2023 Session 2: Sudoku Game
 
 
 
