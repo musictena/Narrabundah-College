@@ -3,6 +3,7 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 
 
 #### Robotics:
+- Written in C++
 ##### 2022 Session 1: Designing a Robotic System
 - System entailed full design brief for future implementation
 ##### 2022 Session 2: Robotic Arm
@@ -14,7 +15,7 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 ##### 2023 Session 1: Ethics of ML & AI and designing an energy efficient car
 - Essay on Ethics and designing of an energy-efficient car through Tinkercad
 ##### 2023 Session 2: Heart Monitoring System
-- Video of reading BPM data: https://github.com/musictena/nc/assets/109852885/f37fa4cd-374e-4054-a481-5d827e5bd698
+- Video of circuit reading inputted BPM data: https://github.com/musictena/nc/assets/109852885/f37fa4cd-374e-4054-a481-5d827e5bd698
 
 #### Digital Solutions:
 
@@ -25,7 +26,7 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 ##### Networking:
 
 ##### 2023 Session 1: Networking with Cisco packet tracer
-##### 2023 Session 2: Sudoku Game
+##### 2023 Session 2: Sudoku Game with Python
 
 
 
@@ -41,3 +42,6 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 ![image](https://user-images.githubusercontent.com/109852885/206123033-678f0c1e-5404-46a8-91b3-e0060a006ee0.png)
 ![image](https://user-images.githubusercontent.com/109852885/206123172-8f28f347-024c-4b3e-8de5-bbc31ec03efb.png)
 
+## Networking
+
+## Robotics
