@@ -1,6 +1,6 @@
-# This Sudoku Game was created by Phebe Le in Session 2 2023
+# This Sudoku game was created by Phebe Le in Session 2 2023
 
-# Whilst this game may not be able to function in the correct method that a noram sudoku game does
+# Whilst this game may not be able to function in the correct method that a normal sudoku game does
 
 # It is able to use the bruteforce algorithm to validate if the board is correct or not
 
