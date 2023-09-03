@@ -16,6 +16,7 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 - Essay on Ethics and designing of an energy-efficient car through Tinkercad
 ##### 2023 Session 2: Heart Monitoring System
 - Video of circuit reading inputted BPM data: https://github.com/musictena/nc/assets/109852885/f37fa4cd-374e-4054-a481-5d827e5bd698
+##### 2023 Session 2: IOT Smart Home
 
 #### Digital Solutions:
 
@@ -27,7 +28,7 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 
 ##### 2023 Session 1: Networking with Cisco packet tracer
 ##### 2023 Session 2: Sudoku Game with Python
-
+##### 2023 Session 2: Dog and Cat classification model, Wine tasting dataset 
 
 
 ## Narrabundah College Website images and Library database
