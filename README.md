@@ -42,7 +42,3 @@ A collection of my assignments from Robotics & Mechatronics, Digital Solutions a
 ![student_dash](https://user-images.githubusercontent.com/109852885/206121849-704a509c-106c-4b80-9674-d4fe82b3528d.png)
 ![image](https://user-images.githubusercontent.com/109852885/206123033-678f0c1e-5404-46a8-91b3-e0060a006ee0.png)
 ![image](https://user-images.githubusercontent.com/109852885/206123172-8f28f347-024c-4b3e-8de5-bbc31ec03efb.png)
-
-## Networking
-
-## Robotics
